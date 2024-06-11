@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.example.Views.Menu"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="420.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="48.0" layoutY="201.0" mnemonicParsing="false" text="Customers" />
+      <Button layoutX="164.0" layoutY="201.0" mnemonicParsing="false" text="Appointments" />
+      <Button layoutX="305.0" layoutY="201.0" mnemonicParsing="false" text="Reports" />
+      <Button layoutX="308.0" layoutY="322.0" mnemonicParsing="false" text="Cancel" />
+      <Label contentDisplay="CENTER" layoutX="162.0" layoutY="89.0" text="Main Menu">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
 </AnchorPane>
