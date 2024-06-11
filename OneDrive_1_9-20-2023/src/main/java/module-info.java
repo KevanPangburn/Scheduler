@@ -4,10 +4,10 @@ module com.example.helloworldjfxtemplate {
     requires java.sql;
 
 
-    opens com.example.helloworldjfxtemplate to javafx.fxml;
-    exports com.example.helloworldjfxtemplate;
+    opens com.example.Scheduling to javafx.fxml;
+    exports com.example.Scheduling;
 
-    exports com.example.helloworldjfxtemplate.controller;
-    opens com.example.helloworldjfxtemplate.controller to javafx.fxml;
+    exports com.example.Scheduling.controller;
+    opens com.example.Scheduling.controller to javafx.fxml;
 
 }
